@@ -3,7 +3,6 @@ package com.codenjoy.dojo.client;
 import com.codenjoy.dojo.services.Point;
 import com.codenjoy.dojo.services.PointImpl;
 
-
 public enum Direction {
     UP(2, 0, -1), DOWN(3, 0, 1), LEFT(0, -1, 0), RIGHT(1, 1, 0);
     private final int value;
